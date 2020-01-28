@@ -1,0 +1,8 @@
+{
+    "voyager.demoapp.customSelect": "Componente de selección personalizada",
+    "voyager.demoapp.customSelectDesc": "A continuación se muestra el ejemplo del cuadro de selección que se estaba cargando desde un componente web personalizado",
+    "voyager.demoapp.customTooltip": "Componente de información sobre herramientas personalizado",
+    "voyager.demoapp.customTooltipDesc": "A continuación se muestra el ejemplo de información sobre herramientas que se está cargando desde un componente web personalizado",
+    "voyager.demoapp.customFabbutton": "Componente de botón Fab personalizado",
+    "voyager.demoapp.customFabbuttonDesc": "A continuación se muestra el ejemplo del botón Fab que se está cargando desde un componente web personalizado"
+}

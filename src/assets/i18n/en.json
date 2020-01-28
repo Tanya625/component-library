@@ -1,0 +1,8 @@
+{
+    "voyager.demoapp.customSelect": "Custom Select component",
+    "voyager.demoapp.customSelectDesc": "Below is the example of select box which is loading from custom web component",
+    "voyager.demoapp.customTooltip": "Custom Tooltip component",
+    "voyager.demoapp.customTooltipDesc": "Below is the example of tooltip which is loading from custom web component",
+    "voyager.demoapp.customFabbutton": "Custom Fab button component",
+    "voyager.demoapp.customFabbuttonDesc": "Below is the example of Fab button which is loading from custom web component"
+}

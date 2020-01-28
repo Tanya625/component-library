@@ -1,0 +1,75 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #1976d2;
+  color: white;
+  font-weight: 600;
+  .title {
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 18px;
+      .subtitle {
+          font-weight: normal;
+          text-transform: initial;
+          font-size: 12px;
+      }
+  }
+}
+a.active, a.active:focus, a.active:hover {
+  background-color: #1976d2;
+  color: white;
+}
+
+.select-box-container select {
+  background-color: white;
+  color: black;
+  padding: 7px;
+  width: 150px;
+  height: 44px;
+  border: solid 1px black;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+.select-box-container .chevron {
+  position: relative;
+  top: 15px;
+  left: 130px;
+  color: black;
+}
+.select-box-container .chevron::before {
+  border-style: solid;
+	border-width: 4px 4px 0 0;
+	content: '';
+	display: inline-block;
+	height: 7px;
+	position: relative;
+	vertical-align: top;
+  width: 7px;
+}
+.chevron.bottom::before {
+	top: 0;
+	transform: rotate(135deg);
+}
